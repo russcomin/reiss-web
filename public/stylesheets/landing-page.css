@@ -1,0 +1,880 @@
+#container {
+	width: 1280px;
+	height: 4300px;
+	margin: 0 auto;
+}
+
+.hero-holder {
+	width: 1280px;
+	height: 760px;
+	background-image: url(../images/hero-background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.navigation {
+	width: 1280px;
+	height: 150px;
+}
+
+.logo {
+	float: left;
+	width: 300px;
+	height: 150px;
+}
+
+.nav-bar {
+	float: right;
+	width: 980px;
+	height: 150px;
+}
+
+.logo p {
+	font-family: Wisdom;
+	font-size: 18px;
+	color: #6c6c6c;
+	letter-spacing: 1.6px;
+	line-height: 147px;
+	margin-left: 110px;
+}
+
+.nav-bar ul {
+	width: 550px;
+	height: 100%;
+	float: right;
+	margin-right: 110px;
+}
+
+.nav-bar ul > li {
+	float: right;
+	display: inline-block;
+	margin-left: 40px;
+	line-height: 148px;
+}
+
+.nav-bar ul > li > a {
+	color: #bebebe;
+	font-family: Roboto-Regular;
+	font-size: 12px;
+	letter-spacing: 2.1px;
+}
+
+#active {
+	color: #6c6c6c;
+	font-family: Roboto-Medium;
+}
+
+.hero {
+	width: 630px;
+	height: 600px;
+}
+
+.hero p {
+	margin-top: 150px;
+	vertical-align: middle;
+	display: inline-block;
+	font-family: Roboto-Light;
+	font-size: 20px;
+	color: #a3a2a2;
+	letter-spacing: 1.6px;
+	line-height: 280%;
+	margin-left: -60px;
+}
+
+.hero p > span {
+	font-family: Roboto-BoldItalic;
+	color: #6c6c6c;
+	font-size: 39px;
+}
+
+.finger {
+	margin-left: 110px;
+	margin-top: 40px;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.box-button {
+	transition: .3s;
+	font-family: Roboto-Black;
+	font-size: 10px;
+	letter-spacing: 1.3px;
+	color: #5d5d5d;
+	width: 154px;
+	height: 52px;
+	background: none;
+	border: 2px solid #6c6c6c;
+	cursor: pointer;
+	margin-left: 207px;
+	margin-top: 30px;
+}
+
+.box-button:hover {
+	transition: .3s;
+	color: white;
+	background: #6c6c6c;
+}
+
+.line {
+	width: 1px;
+	height: 130px;
+	background: #c7c7c7;
+	border: none;
+	margin-left: 280px;
+	margin-top: 40px;
+}
+
+.about {
+	width: 1280px;
+	height: 550px;
+}
+
+.image-holder{
+	float: left;
+	width: 640px;
+	height: 550px;
+}
+
+.text-holder{
+	float: right;
+	width: 640px;
+	height: 550px;
+}
+
+.port-1 {
+	margin-left: 140px;
+	margin-top: 20px;
+	float: left;
+}
+
+.port-2 {
+	float: left;
+	margin-left: 45px;
+	margin-top: 70px;
+}
+
+.text-holder hr {
+	display: inline-block;
+	vertical-align: middle;
+	width: 100px;
+	height: 1px;
+	background: #c7c7c7;
+	border: none;
+}
+
+.text-holder p {
+	display: inline-block;
+	vertical-align: middle;
+	font-family: Roboto-Regular;
+	font-size: 12px;
+	color: #afafaf;
+	letter-spacing: 1.4px;
+	margin-left: 20px;
+}
+
+.text-holder p > span {
+	font-family: Roboto-Bold;	
+	color: #817e7e;
+}
+
+.text-holder h1 {
+	font-family: Roboto-Bold;
+	color: #dedede;
+	font-size: 30px;
+	letter-spacing: 2.4px;
+	margin-left: 66px;
+	margin-top: 40px;
+	line-height: 120%;
+}
+
+.text-holder h1 > span {
+	color: #8e8d8d;
+	font-size: 18px;
+	letter-spacing: 23px;
+}
+
+.text-holder .style-p {
+	color: #686868;
+	font-family: Roboto-Regular;
+	line-height: 310%;
+	margin-left: 66px;
+	margin-top: 40px;
+}
+
+.bio-btn {
+	width: 190px;
+	margin-left: 67px;
+	margin-top: 50px;
+}
+
+.citati {
+	width: 1280px;
+	height: 1070px;
+}
+
+.citati-text {
+	width: 640px;
+	height: 1070px;
+	float: left;
+}
+
+.citati-image {
+	width: 640px;
+	height: 1070px;
+	float: right;
+}
+
+.line-fix {
+	margin-left: 220px;
+	margin-top: 0px;
+}
+
+.reiss-graphic {
+	margin-top: 70px;
+	margin-left: 20px;
+}
+
+/* stupid */
+
+.citati-text hr {
+	display: inline-block;
+	vertical-align: middle;
+	width: 100px;
+	height: 1px;
+	background: #c7c7c7;
+	border: none;
+	margin-left: 20px;
+	margin-top: 60px;
+}
+
+.citati-text .hr-text {
+	display: inline-block;
+	vertical-align: middle;
+	font-family: Roboto-Regular;
+	font-size: 12px;
+	color: #afafaf;
+	letter-spacing: 1.4px;
+	margin-left: 170px;
+	margin-top: 60px;
+}
+
+.citati-text p > span {
+	font-family: Roboto-Bold;	
+	color: #817e7e;
+}
+
+.citati-text h1 {
+	font-family: Roboto-Bold;
+	color: #dedede;
+	font-size: 30px;
+	letter-spacing: 2.4px;
+	margin-left: 246px;
+	margin-top: 40px;
+	line-height: 120%;
+}
+
+.citati-text h1 > span {
+	color: #8e8d8d;
+	font-size: 18px;
+	letter-spacing: 23px;
+}
+
+.citat-title {
+	text-align: right;
+	margin-top: 90px;
+	margin-right: 40px;
+	font-family: Roboto-Bold;
+	font-size: 14px;
+	color: #b5b5b5;
+	letter-spacing: 2.2px;
+}
+
+.citat-text {
+	text-align: right;
+	margin-right: 40px;
+	margin-top: 23px;
+	font-family: Roboto-Regular;
+	font-size: 13px;
+	letter-spacing: 1.4px;
+	line-height: 290%;
+	color: #bab5b5;
+}
+
+.citat-text span {
+	font-size: 30px;
+	color: #777777;
+}
+
+.citati-btn {
+	margin-top: 60px;
+	margin-left: 440px;
+}
+
+.pohvala {
+	width: 1280px;
+	height: 1900px;
+	text-align: center;
+}
+
+.pohvala-hero {
+	margin-top: 70px;
+	width: 1280px;
+	height: 520px;
+	background-image: url(../images/public.png);
+	text-align: center;
+	overflow-y: hidden;
+}
+
+.pohvala-hero img{
+	margin-top: 301px;
+}
+
+.fix-2 {
+	margin: 0 auto;
+}
+
+/* stupid v2 */
+
+.pohvala .title-line {
+	display: inline-block;
+	vertical-align: middle;
+	width: 100px;
+	height: 1px;
+	background: #c7c7c7;
+	border: none;
+	margin-top: 20px;
+}
+
+.pohvala .hr-text {
+	display: inline-block;
+	vertical-align: middle;
+	font-family: Roboto-Regular;
+	font-size: 12px;
+	color: #afafaf;
+	letter-spacing: 1.4px;
+	margin-top: 20px;
+}
+
+.pohvala p > span {
+	font-family: Roboto-Bold;	
+	color: #817e7e;
+}
+
+.pohvala h1 {
+	font-family: Roboto-Bold;
+	color: #dedede;
+	font-size: 30px;
+	letter-spacing: 2.4px;
+	margin-top: 40px;
+	line-height: 120%;
+}
+
+.pohvala h1 > span {
+	color: #8e8d8d;
+	font-size: 18px;
+	letter-spacing: 23px;
+}
+
+.pohvala-sub {
+	margin-top: 40px;
+	font-family: Roboto-Regular;
+	font-size: 14px;
+	color: #787878;
+	letter-spacing: 1.4px;
+	line-height: 360%;
+}
+
+.leva-strofa {
+	width: 500px;
+	height: 480px;
+	float: left;
+	margin-top: 60px;
+	margin-left: 120px;
+}
+
+.desna-strofa {
+	width: 500px;
+	height: 480px;
+	float: right;
+	margin-top: 60px;
+	margin-right: 120px;
+}
+
+.number {
+	display: inline-block;
+	vertical-align: middle;
+	font-family: Roboto-Regular;
+	font-size: 142px;
+	color: #f0f0f0;
+}
+
+.strofa-text {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+	font-family: Roboto-Light;
+	font-size: 14px;
+	color: #a5a5a5;
+	letter-spacing: 1.5px;
+	line-height: 300%;
+	margin-left: 10px;
+	margin-top: 30px;
+}
+
+.m-top {
+	margin-top: 70px;
+}
+
+.n-top {
+	margin-top: 20px;
+}
+
+.footer-holder {
+	width: 100%;
+	height: 160px;
+	background-color: #f3f3f3;
+}
+
+.footer {
+	width: 1280px;
+	height: 160px;
+	margin: 0 auto;
+	background-color: #f3f3f3;
+}
+
+.footer-left {
+	width: 400px;
+	height: 160px;
+	float: left;
+}
+
+.footer-right {
+	width: 880px;
+	height: 160px;
+	float: right;
+}
+
+.s-name {
+	font-family: Wisdom;
+	font-size: 16px;
+	color: #9b9a9a;
+	letter-spacing: 2.2px;
+	margin-left: 150px;
+	margin-top: 50px;
+}
+
+.c-right {
+	font-family: Roboto-Regular;
+	font-size: 12px;
+	color: #b5b5b5;
+	letter-spacing: 1.4px;
+	margin-left: 150px;
+	margin-top: 10px;
+}
+
+.footer-right ul {
+	width: 600px;
+	height: 40px;
+	overflow-y: hidden;
+	float: right;
+	margin-top: 40px;
+	margin-right: 148px;
+}
+
+.footer-right ul>li {
+	display: inline-block;
+}
+
+.footer-right ul > li {
+	float: right;
+	display: inline-block;
+	margin-left: 40px;
+	line-height: 38px;
+}
+
+.footer-right ul > li > a {
+	color: #bebebe;
+	font-family: Roboto-Regular;
+	font-size: 12px;
+	letter-spacing: 2.1px;
+}
+
+.crafted {
+	font-family: Roboto-Regular;
+	font-size: 12px;
+	color: #c1c1c1;
+	letter-spacing: 1.4px;
+	float: right;
+	margin-right: 148px;
+	margin-top: 10px;
+}
+
+.crafted span>a {
+	font-family: Roboto-Bold;
+	color: #939191;
+}
+
+#active {
+	color: #6c6c6c;
+	font-family: Roboto-Medium;
+}
+
+#menu {
+	display: none;
+	position: absolute;
+	right: 70px;
+	top: 60px;
+	cursor: pointer;
+}
+
+@media (max-width: 1200px) { 
+
+	#container {
+		width: 100%;
+		height: auto;
+	}
+
+	.hero-holder {
+		width: 100%;
+		background-image: url(../images/hero-background.jpg);
+		background-position: center;
+	}
+
+	.navigation {
+		width: 1000%;
+		height: 150px;
+	}
+
+	.nav-bar { display: none; }	
+
+	#menu {
+		display: block;
+	}
+
+	.logo p {
+		margin-left: 70px;
+	}	
+
+	.hero {
+		width: 100%;
+		height: 600px;
+		text-align: center;
+	}
+
+	.hero p {
+		margin-top: 120px;
+		vertical-align: middle;
+		display: inline-block;
+		font-family: Roboto-Light;
+		font-size: 20px;
+		color: #a3a2a2;
+		letter-spacing: 1.6px;
+		line-height: 280%;
+		margin-left: 0px;
+	}
+
+	.hero p > span {
+		font-family: Roboto-BoldItalic;
+		color: #6c6c6c;
+		font-size: 39px;
+	}
+
+	.finger {
+		margin-left: 70px;
+		display: none;
+	}
+
+	.box-button {
+		margin-left: 0px;
+	}
+
+	.line {
+		margin: 0 auto;
+		margin-top: 40px;
+	}	
+
+	.about {
+		width: 100%;
+		height: 900px;
+		overflow-y: hidden;
+	}
+
+	.image-holder{
+		float: left;
+		width: 100%;
+		text-align: center;
+		height: 310px;
+	}
+
+	.text-holder{
+		margin-top: 40px;
+		float: left;
+		text-align: center;
+		width: 100%;
+		height: 550px;
+	}
+
+	.port-1 {
+		margin-left: 0px;
+		margin-top: 0px;
+		float: none;
+		padding-right: 20px;
+	}
+
+	.port-2 {
+		float: none;
+		margin-left: 0px;
+		margin-top: 00px;
+		padding-left: 20px;
+	}
+
+	.text-holder h1 {
+		margin-left: 0px;
+		margin-top: 40px;
+		line-height: 120%;
+	}
+
+	.text-holder .style-p {
+		margin-left: 0px;
+	}
+
+	.bio-btn {
+		margin-left: 0px;
+	}
+
+	.citati {
+		width: 100%;
+		height: 1970px;
+	}
+
+	.citati-text {
+		width: 100%;
+		height: 1070px;
+		float: none;
+		text-align: center;
+	}
+
+	.citati-image {
+		width: 100%;
+		height: 840px;
+		float: none;
+		text-align: center;
+		overflow-y: hidden;
+	}
+
+	.line-fix {
+		height: 150px;
+		margin: 0 auto;
+	}
+
+	.reiss-graphic {
+		margin-left: 35px;
+	}
+
+	/* stupid */
+
+	.citati-text hr {
+		margin-left: 0px;
+		margin-top: 60px;
+	}
+
+	.citati-text .hr-text {
+		margin-left: 0px;
+		margin-top: 60px;
+	}
+
+	.citati-text p > span {
+		font-family: Roboto-Bold;	
+		color: #817e7e;
+	}
+
+	.citati-text h1 {
+		margin-left: 0px;
+		margin-top: 40px;
+		line-height: 120%;
+	}
+
+	.citat-title {
+		text-align: center;
+		margin-top: 90px;
+		margin-right: 0px;
+		letter-spacing: 2.2px;
+	}
+
+	.citat-text {
+		text-align: center;
+		margin-right: 0px;
+		margin-top: 23px;
+	}
+
+	.citati-btn {
+		margin-top: 40px;
+		margin-left: 0px;
+	}
+
+	/* pohvala v2 */
+
+	.pohvala {
+		width: 100%;
+		height: 2500px;
+		text-align: center;
+		overflow-y: hidden;
+	}
+
+	.pohvala-hero {
+		width: 100%;
+		background-position: center;
+	}
+
+	.pohvala-hero img{
+		margin-top: 301px;
+	}
+
+	.fix-2 {
+		margin: 0 auto;
+	}
+
+	/* stupid v2 */
+
+	.leva-strofa {
+		width: 100%;
+		height: 480px;
+		float: left;
+		margin-top: 60px;
+		margin-left: 0px;
+		text-align: center;
+	}
+
+	.desna-strofa {
+		width: 100%;
+		height: 480px;
+		float: right;
+		margin-top: 20px;
+		margin-right: 0px;
+		text-align: center;
+	}
+
+	.strofa-text {
+		text-align: left;
+		margin-left: 10px;
+		margin-top: 30px;
+	}
+
+	.m-top {
+		margin-top: 70px;
+	}
+
+	.n-top {
+		margin-top: 20px;
+	}
+
+	.footer-holder {
+		width: 100%;
+		height: 160px;
+		background-color: #f3f3f3; 
+	}
+
+	.footer-holder {
+		width: 100%;
+		height: 260px;
+	}
+
+	.footer {
+		width: 100%;
+		height: 260px;
+		margin: 0 auto;
+		background-color: #f3f3f3;
+	}
+
+	.footer-left {
+		width: 100%;
+		height: 160px;
+		float: left;
+		text-align: center;
+	}
+
+	.footer-right {
+		width: 100%;
+		height: auto;
+		text-align: center;
+		float: right;
+		text-align: center;
+	}
+
+	.s-name {
+		margin-left: 0px;
+		margin-top: 50px;
+	}
+
+	.c-right {
+		margin-left: 0px;
+		margin-top: 10px;
+	}
+
+	.footer-right ul {
+		display: none;
+	}
+
+	.crafted {
+		font-family: Roboto-Regular;
+		font-size: 12px;
+		color: #c1c1c1;
+		letter-spacing: 1.4px;
+		float: none;
+		margin-right: 0px;
+		margin-top: 10px;
+	}
+
+	.crafted span>a {
+		font-family: Roboto-Bold;
+		color: #939191;
+	}
+
+
+}
+
+@media (max-width: 515px) { 
+	
+	.port-2 {
+		display: none;
+	}
+
+	.hero p {
+		margin-top: 110px;
+		vertical-align: middle;
+		display: inline-block;
+		font-family: Roboto-Light;
+		font-size: 17px;
+		color: #a3a2a2;
+		letter-spacing: 1.6px;
+		line-height: 280%;
+		margin-left: 0px;
+	}
+
+	.hero p > span {
+		font-family: Roboto-BoldItalic;
+		color: #6c6c6c;
+		font-size: 34px;
+	}
+
+	.port-1 {
+		padding: 0px;
+	}
+
+	.reiss-graphic {
+		margin-left: 0px;
+	}
+
+	.text-holder .style-p {
+		color: #686868;
+		font-family: Roboto-Regular;
+		line-height: 310%;
+		margin-left: 0px;
+		margin-top: 40px;
+		font-size: 10px;
+	}
+
+	.pohvala-sub {
+		font-size: 11px;
+	}	
+}
