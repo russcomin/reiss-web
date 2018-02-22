@@ -58,3 +58,7 @@ button:focus { outline: none; }
 h2{
 	font-family: Wisdom;
 }
+
+#home {
+    cursor: pointer;
+}

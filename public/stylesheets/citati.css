@@ -1,0 +1,60 @@
+.content {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.citat-title {
+	font-family: Roboto-Bold;
+	font-size: 14px;
+	color: #b5b5b5;
+	letter-spacing: 2.2px;
+	margin-top: 80px;
+}
+
+.citat-text {
+	margin-top: 40px;
+	font-family: Roboto-Regular;
+	font-size: 13px;
+	letter-spacing: 1.4px;
+	line-height: 290%;
+	color: #bab5b5;
+	padding: 0px 10px 0px 10px;
+}
+
+.citat-text span {
+	font-size: 30px;
+	color: #777777;
+}
+
+.content-left {
+	width: 50%;
+	height: auto;
+	float: left;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.content-right {
+	width: 50%;
+	height: auto;
+	text-align: center;
+	margin-bottom: 100px;
+	float: right;
+}
+
+@media (max-width: 900px){
+
+	.content {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.content-left {
+		width: 100%;
+		margin-bottom: 40px;
+	}
+
+	.content-right {
+		width: 100%;
+	}
+}

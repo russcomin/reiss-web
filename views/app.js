@@ -1,5 +1,8 @@
+const home_url = "index.html";
+
 let menu = document.getElementById('menu'),
 	close = document.getElementById('close'),
+	home = document.getElementById('home'),
 	modal = document.getElementById('menu-modal');
 
 	let closeModal = () => {
@@ -14,3 +17,4 @@ let menu = document.getElementById('menu'),
 
 	menu.addEventListener('click', openModal);
 	close.addEventListener('click', closeModal);
+	home.addEventListener('click', () => { document.location = home_url });
