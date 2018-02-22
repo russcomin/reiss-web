@@ -41,7 +41,7 @@
 				<p>Sudbina vam je u vlastitim rukama <br>
 					<span>Blistava buducnost </span>ili <br>
 					ponovo ropstvo</p> <br>
-				<button id="jos_citata" class="box-button">JOS CITATA</button>
+				<button id="jos_citata" class="box-button" onclick="executeCitati()">JOS CITATA</button>
 				<hr class="line">
 			</div><!-- end hero -->
 		</div><!-- end hero-holder -->
@@ -61,7 +61,7 @@
 					profesor na Univerzitetu u Lozani. Istakao se kao kriminolog <br>
 					radom na istraživanju zločina nad srpskim stanovništvom u <br>
 					vreme Prvog svetskog rata.</p><br>
-					<button id="bio" class="box-button bio-btn">AUTOBIOGRAFIJA</button>
+					<button id="bio" class="box-button bio-btn" onclick="executeBio()">AUTOBIOGRAFIJA</button>
 			</div><!-- end text-holder -->
 		</div><!-- end about -->
 		<div class="citati">
@@ -81,7 +81,7 @@
 				<h3 class="citat-title">O MINISTRIMA</h3>
 				<p class="citat-text"><span>“</span>Najbolji nacin da postanes bogat jeste <br>
 					da postanes ministar<span>”</span></p> <br>
-				<button id="bio" class="box-button citati-btn">JOŠ CITATA</button>
+				<button id="bio" class="box-button citati-btn" onclick="executeCitati()">JOŠ CITATA</button>
 			</div><!-- end citati-text -->
 			<div class="citati-image">
 				<hr class="line line-fix">
@@ -161,5 +161,6 @@
 		</div><!-- end footer-holder -->	
 	<!-- script -->	
 	<script src="views/app.js"></script>
+	<script src="views/router.js"></script>
 </body>
 </html>
